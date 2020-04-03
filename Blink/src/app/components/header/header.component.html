@@ -1,0 +1,204 @@
+<!-- navbar start-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-sm-start fixed-top">
+    <div class="container">
+    <a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-5  text-primary " routerLink="/">
+        <b>BLINK</b>
+    </a>
+    <button class="navbar-toggler align-self-start" type="button" (click)="sideMenu()">
+        <span class="navbar-toggler-icon "></span>
+    </button>
+
+    <div class="collapse navbar-collapse bg-light d-flex flex-column flex-lg-row flex-xl-row 
+    justify-content-lg-end p-3 p-lg-0 mt-5 mt-lg-0 mobileMenu " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto align-self-start">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    aria-haspopup="true" aria-expanded="false" routerLink="/men">
+                    MEN
+                </a>
+                <div class="dropdown-menu mt-2 mega-menu" aria-labelledby="navbarDropdown">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="mega-submenu-heading">Topwear</p>
+                            <a routerLink="#">T-Shirts</a>
+                            <a routerLink="#">Shirt</a>
+                            <a routerLink="#">Vest</a>
+                            <a routerLink="#">Hoodies</a>
+                            <a routerLink="#">Jacket</a>
+                            <a routerLink="#">Sweaters</a>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="mega-submenu-heading">Bottomwear</p>
+                            <a routerLink="#">Joggers</a>
+                            <a routerLink="#">Pyjama</a>
+                            <a routerLink="#">Boxer</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                    aria-haspopup="true" aria-expanded="false" routerLink="/women">
+                    WOMEN
+                </a>
+                <div class="dropdown-menu mt-2 mega-menu" aria-labelledby="navbarDropdown"
+                style="margin-left: -77%;">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="mega-submenu-heading">Topwear</p>
+                            <a routerLink="#">T-Shirts</a>
+                            <a routerLink="#">Crop-Tops</a>
+                            <a routerLink="#">Hoodies</a>
+                            <a routerLink="#">Sweatshirts</a>
+                            <a routerLink="#">Jacket</a>
+                            <a routerLink="#">Sweaters</a>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="mega-submenu-heading">Bottomwear</p>
+                            <a routerLink="#">Joggers</a>
+                            <a routerLink="#">Pyjama</a>
+                            <a routerLink="#">Boxer</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    aria-haspopup="true" aria-expanded="false">
+                    MOBILE COVERS   
+                </a>
+                <div class="dropdown-menu mt-2 mega-menu" aria-labelledby="navbarDropdown"
+                style="margin-left: -112%;">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="mega-submenu-heading">Realme</p>
+                            <a routerLink="#">Realme XT</a>
+                            <a routerLink="#">Realme 5 Pro</a>
+                            <a routerLink="#">Realme 5</a>
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <p class="mega-submenu-heading">OnePlus</p>
+                            <a routerLink="#">OnePlus 7T</a>
+                            <a routerLink="#">OnePlus 7</a>
+                            <a routerLink="#">OnePlus 7 Pro</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 input-group-sm">
+            <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search"
+            >
+            <!-- <mat-form-field class="example-full-width" style="padding: 0px;">
+                <input matInput>
+            </mat-form-field> -->
+
+            <button class="btn p-0 pt-2" type="submit">
+                <mat-icon aria-hidden="false" aria-label="Example home icon" class="text-dark">search</mat-icon>
+                
+            </button>
+        
+        </form>
+
+        
+        <ul class="navbar-nav ml-auto align-self-start">
+            <li class="nav-item active">
+                <!-- <a class="nav-link" href="#"> M</a> -->
+                <mat-icon aria-hidden="false" aria-label="Example home icon" class="text-dark mt-2">favorite_border</mat-icon>
+                <span class="cart-count text-light" >3</span>
+            </li>
+            <li class="nav-item">
+                <!-- <a class="nav-link" href="#">W</a> -->
+                <mat-icon aria-hidden="false" aria-label="Example home icon" class="text-dark mt-2">card_travel</mat-icon>
+                <span class="cart-count text-light" >1</span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" type="button" 
+                 data-toggle="modal" data-target="#exampleModalCenter">LOGIN</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+</nav>
+<br> <br>
+
+<div class="overlay"></div>
+
+
+
+<!---------------------------------------- Modal  start------------------------------------------------>
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <!-- <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div> -->
+
+            <div class="modal-body  pt-4 pb-4" style="width: 500px; height: 300px;">
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <mat-tab-group mat-stretch-tabs >
+                    <mat-tab label="Log In" >
+                        <form>
+                            <mat-form-field class="example-full-width">
+                                <mat-label> UserId</mat-label>
+                                <input matInput placeholder="Ex. abc@gmail.com" value="">
+                            </mat-form-field>
+                            <br>
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Password</mat-label>
+                                <input matInput placeholder="Ex. 1234" value="">
+                            </mat-form-field>
+
+                            <br>
+                            <div class="form-group">
+                                <button mat-raised-button color="primary">submit</button>
+                            </div>
+
+                        </form>
+                    </mat-tab>
+                    <mat-tab label="Register">
+                        <form>
+                            <mat-form-field class="example-full-width">
+                                <mat-label> UserId</mat-label>
+                                <input matInput placeholder="Ex. abc@gmail.com" value="">
+                            </mat-form-field>
+                            <br>
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Password</mat-label>
+                                <input matInput placeholder="Ex. 1234" value="">
+                            </mat-form-field>
+
+                            <br>
+                            <div class="form-group">
+                                <button mat-raised-button color="primary">submit</button>
+                            </div>
+
+                        </form>
+                    </mat-tab>
+
+                </mat-tab-group>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!---------------------------------------- Modal  end ------------------------------------------------>
+
+<!-- navbar end-->

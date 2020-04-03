@@ -1,0 +1,80 @@
+
+.shop .shop-top {
+	clear: both;
+	background: #f6f7fb;
+	padding: 18px 20px 50px 20px;
+}
+.shop .shop-shorter {
+	float: left;
+}
+.shop .single-shorter {
+	display: inline-block;
+	margin-right: 10px;
+}
+.shop .single-shorter:last-child{
+	margin:0;
+}
+.shop .single-shorter label {
+	display: inline-block;
+	float: left;
+	margin: 4px 5px 0 0;
+	font-weight:500;
+}
+.shop .single-shorter option{}
+.shop .nice-select {
+	clear: initial;
+	display: inline-block;
+	margin: 0;
+	border: 1px solid #e6e6e6;
+	border-radius: 0px;
+	height: auto;
+	width: auto;
+	border-radius: 0px;
+}
+.shop .nice-select::after{
+	border-color:#888;
+}
+.shop .nice-select .list {
+	border-radius:0px;
+}
+.shop .nice-select .option.selected {
+	font-weight: 500;
+}
+.shop .nice-select .list li{
+	color:#666;
+	border-radius:0px;
+}
+.shop .nice-select .list li:hover{
+	background:#F7941D;
+	color:#fff;
+}
+.shop .view-mode {
+	float: right;
+}
+.shop .view-mode li {
+	display: inline-block;
+	margin-right: 5px;
+}
+.shop .view-mode li:last-child{
+	margin:0;
+}
+.shop .view-mode li a {
+	width: 43px;
+	height: 32px;
+	background: transparent;
+	border: 1px solid #77777775;
+	text-align: center;
+	display: block;
+	line-height: 32px;
+	color: #888;
+	border-radius: 0px;
+}
+.shop .view-mode li.active a,
+.shop .view-mode li:hover a {
+	background: #F7941D;
+	color:#fff;
+	border-color:transparent;
+}
+/*======================================
+   End Shop Sidebar CSS
+========================================*/
